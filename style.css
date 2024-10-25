@@ -64,22 +64,21 @@ ul {
 .header {
     background-color: #1F2937;
     color: #f9faf8;
-    height: 350px;
+    height: 500px;
 }
 
 .header h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    word-wrap: break-word;
     line-height: 1.2;
     margin: 0;
 }
 
 .header p {
+    width: 600px;
     font-size: 18px;
     color: #e5e7eb;
-    word-wrap: break-word;
 }
 
 .header img {
@@ -96,6 +95,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .button-22 {
