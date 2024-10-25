@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}   
+
+h1,h2,h3 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background-color: #1F2937;
+    color: #fff;
+    height: 50px;
+}
+
+.logo {
+    font-size: large;
+    font-weight: 900;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar ul li {
+    margin-left: 20px; /* provides space between list items */
+    font-size: 12px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 350px;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    word-wrap: break-word;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+    word-wrap: break-word;
+}
+
+.header img {
+    max-width: 470px;
+}
+
+.header .image p {
+    text-align: center;
+    color: black;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}
+
+.section {
+    height: 450px;
+    background-color: #f9faf8;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section .box {
+    border-radius: 25px;
+    border: 2px solid #1C84FF;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.section .boxes {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.section p {
+    margin-top: 10px;
+    text-align: center;
+    width: 190px;
+    word-wrap: wrap;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote .container {
+    height: 100%;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+
+.quote h6 {
+    align-self: flex-end;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.signup {
+    height: 350px;
+    background-color: #f9faf8;
+}
+
+.signup .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.signup .box {
+    display: flex;
+    width: 1000px;
+    height: 160px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1C84FF;
+    border-radius: 10px;
+
+}
+
+.signup .here {
+    color:#f9faf8
+}
+
+.signup h3 {
+    margin-bottom: 0px;
+}
+
+.signup p {
+    color: #e5e7eb;
+}
+
+.signup .button-22{
+    border: 2px solid #e5e7eb;
+
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
